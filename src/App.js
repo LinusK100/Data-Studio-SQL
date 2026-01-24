@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LanguageProvider } from './hooks/useLanguage';
+import Layout from './components/Layout/Layout';
+import Home from './pages/Home';
+import Privacy from './pages/Privacy';
+import Support from './pages/Support';
+import Imprint from './pages/Imprint';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout><Home /></Layout>} />
+          <Route path="/privacy" element={<Layout><Privacy /></Layout>} />
+          <Route path="/support" element={<Layout><Support /></Layout>} />
+          <Route path="/imprint" element={<Layout><Imprint /></Layout>} />
+        </Routes>
+      </BrowserRouter>
+    </LanguageProvider>
   );
 }
 
