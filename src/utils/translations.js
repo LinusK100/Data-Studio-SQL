@@ -154,7 +154,7 @@ export const translations = {
       support: 'Support',
       appStore: 'App Store',
       contact: 'Kontakt',
-      contactText: 'Bei Fragen oder Anregungen\nkontaktieren Sie uns gerne.',
+      contactText: 'Bei Fragen oder Anregungen\nkontaktieren Sie mich gerne.',
       copyright: '© {year} UML Studio Code. Alle Rechte vorbehalten.',
     },
     // Privacy
@@ -187,16 +187,16 @@ export const translations = {
       title: 'Support',
       section1: {
         title: 'Anleitung',
-        content: 'In unserer App finden Sie eine integrierte Hilfe-Sektion mit Tipps und Best Practices für die Erstellung von UML-Diagrammen.',
+        content: 'In meiner App finden Sie eine integrierte Hilfe-Sektion mit Tipps und Best Practices für die Erstellung von UML-Diagrammen.',
       },
       section2: {
         title: 'Kontakt',
-        content: 'Bei Fragen oder Problemen können Sie uns jederzeit kontaktieren. In der App gibt es eine integrierte Funktion zum Senden von Emails (kategorisiert nach Fehler, Verbesserungsvorschläge, Erweiterungen).',
+        content: 'Bei Fragen oder Problemen können Sie mich jederzeit kontaktieren. In der App gibt es eine integrierte Funktion zum Senden von Emails (kategorisiert nach Fehler, Verbesserungsvorschläge, Erweiterungen).',
       },
       section3: {
         title: 'Feedback',
-        content: 'Ihr Feedback ist uns wichtig! Teilen Sie uns mit, wie wir UML Studio Code weiter verbessern können. Wir freuen uns über Ihre Anregungen und Vorschläge.',
-        email: 'Wenden Sie sich gerne direkt an uns:',
+        content: 'Ihr Feedback ist mir wichtig! Teilen Sie mir mit, wie ich UML Studio Code weiter verbessern kann. Ich freue mich über Ihre Anregungen und Vorschläge.',
+        email: 'Wenden Sie sich gerne direkt an mich:',
         emailAddress: 'UMLStudioCode@gmx.de',
       },
     },
