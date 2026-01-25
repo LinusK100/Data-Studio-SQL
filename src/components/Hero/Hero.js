@@ -20,7 +20,9 @@ const Hero = () => {
             {t('hero.description')}
           </p>
           <a 
-            href="#download" 
+            href="https://apps.apple.com/app/uml-studio-code" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="hero-cta-button"
             aria-label={t('hero.ctaAria')}
           >

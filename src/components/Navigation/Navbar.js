@@ -32,19 +32,29 @@ const Navbar = () => {
       navigate('/');
       // Wait for navigation, then scroll
       setTimeout(() => {
-        const element = document.getElementById(targetId);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+        scrollToSection(targetId);
       }, 100);
     } else {
       // We're on home page, just scroll
-      const element = document.getElementById(targetId);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+      scrollToSection(targetId);
     }
     setIsMenuOpen(false);
+  };
+
+  const scrollToSection = (targetId) => {
+    const element = document.getElementById(targetId);
+    if (element) {
+      // Get navbar height to offset scroll position
+      const navbar = document.querySelector('.navbar');
+      const navbarHeight = navbar ? navbar.offsetHeight : 0;
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - navbarHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
   };
 
   const handleLogoClick = (e) => {
