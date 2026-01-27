@@ -17,7 +17,7 @@ const Download = () => {
           
           <div className="download-badges">
             <a 
-              href="https://apps.apple.com/app/uml-studio-code" 
+              href="https://apps.apple.com/us/app/uml-studio-code/id6757933773" 
               target="_blank" 
               rel="noopener noreferrer"
               className="app-store-button"
