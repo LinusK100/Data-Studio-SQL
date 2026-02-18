@@ -4,7 +4,7 @@ export const translations = {
     nav: {
       home: 'Start',
       features: 'Features',
-      codeGeneration: 'Code-Generierung',
+      codeGeneration: 'SQL-Generator',
       screenshots: 'Screenshots',
       useCases: 'Use Cases',
       download: 'Download',
@@ -15,64 +15,64 @@ export const translations = {
     // Hero
     hero: {
       title: 'Data Studio SQL',
-      subtitle: 'Erstellen Sie professionelle UML-Diagramme direkt auf iPhone & iPad',
-      description: 'Professionelle UML-Diagramme. Einfach. Schnell. Offline.',
+      subtitle: 'Datenbanken entwerfen, testen und verstehen – auf deinem iPad.',
+      description: 'Visuelles ER-Modellieren. Automatische SQL-Generierung. Lokale Datenbank. Alles offline.',
       cta: 'Jetzt herunterladen',
       ctaAria: 'Jetzt im App Store herunterladen',
       imageAlt: 'Data Studio SQL App Screenshot',
     },
     // Features
     features: {
-      title: 'Alles, was Sie für professionelle UML-Diagramme brauchen',
-      description: 'Entdecken Sie die leistungsstarken Features, die Data Studio SQL zu einer vollständigen Lösung für Ihre Diagramm-Erstellung machen.',
+      title: 'Alles für deinen Datenbank-Workflow – in einer App',
+      description: 'Von der visuellen ER-Modellierung über automatische SQL-Generierung bis zur lokalen SQLite-Datenbank – Data Studio SQL vereint alles in einem einzigen Tool.',
       items: [
         {
-          title: 'Code automatisch importieren',
-          description: 'Laden Sie Code-Dateien oder fügen Sie Code direkt ein. Die App erkennt automatisch Klassen, Methoden und Attribute aus Swift, Java, Python und C#.',
+          title: 'ER-Canvas',
+          description: 'Entities und Beziehungen visuell per Drag & Drop erstellen – mit Zoom, Grid-Snapping und individuellen Farben.',
         },
         {
-          title: 'Professionelle UML-Klassen',
-          description: 'Erstellen Sie UML-Klassen mit Attributen, Methoden und Konstruktoren – alles mit professioneller Darstellung.',
+          title: 'SQL-Generator',
+          description: 'Automatisch sauberer SQL-Code aus dem Diagramm – CREATE TABLE, PRIMARY KEY, FOREIGN KEY, Junction Tables.',
         },
         {
-          title: 'Intelligente Verbindungen',
-          description: 'Verbinden Sie Elemente mit verschiedenen UML-Beziehungstypen wie Assoziation, Vererbung und Abhängigkeit.',
+          title: 'Lokale Datenbank',
+          description: 'Echte SQLite-Datenbank direkt auf dem Gerät anlegen und mit konfigurierbaren Demo-Daten befüllen.',
         },
         {
-          title: 'Code aus Diagrammen generieren',
-          description: 'Generieren Sie Code aus Ihren UML-Diagrammen in Swift, Java, Python und C# – perfekt für die Dokumentation.',
+          title: 'Query Editor',
+          description: 'SQL-Abfragen schreiben, ausführen und Ergebnisse sofort in einer dynamischen Tabelle sehen.',
         },
         {
-          title: 'Organisierte Projektverwaltung',
-          description: 'Organisieren Sie Ihre Diagramme in Ordnern, markieren Sie Favoriten und verwalten Sie mehrere Projekte.',
+          title: 'Projektmanagement',
+          description: 'Mehrere Projekte in Ordnern organisieren, anpinnen, suchen und als SQL, PNG, PDF oder JSON exportieren.',
         },
         {
-          title: 'Flexibler Export',
-          description: 'Exportieren Sie Diagramme als PNG oder PDF, oder sichern Sie komplette Projekte als Backup-Dateien.',
+          title: 'Dark Mode & Themes',
+          description: 'Vier Design-Presets (Classic, Modern, Minimal, Colorful) und vollständige Dark-Mode-Unterstützung.',
         },
       ],
     },
-    // Code Generation
+    // SQL Generator / Workflow
     codeGeneration: {
-      title: 'Code aus Diagrammen generieren',
-      subtitle: 'Von UML zu produktivem Code in Sekunden',
-      description: 'Generieren Sie vollständigen, produktionsreifen Code aus Ihren UML-Diagrammen. Die App erhält die Struktur, Beziehungen und alle Details Ihrer Modellierung.',
+      title: 'Vom Diagramm zur Datenbank in Sekunden',
+      subtitle: 'SQL automatisch generiert – direkt aus deinem ER-Modell',
+      description: 'Zeichne dein Datenbankmodell auf der Leinwand und erhalte sofort vollständigen SQL-Code. CREATE TABLE, PRIMARY KEY, FOREIGN KEY und Junction Tables werden automatisch erkannt und korrekt generiert.',
       features: {
-        title: 'Unterstützte Programmiersprachen',
+        title: 'Automatisch generierter SQL-Code',
         languages: [
-          { name: 'Swift', description: 'Native iOS-Entwicklung mit vollständiger Swift-Syntax' },
-          { name: 'Java', description: 'Plattformunabhängiger Code für Enterprise-Anwendungen' },
-          { name: 'Python', description: 'Modernes Python mit Type Hints und Klassen-Definitionen' },
-          { name: 'C#', description: 'Vollständige .NET-Kompatibilität mit Properties und Methoden' },
+          { name: 'CREATE TABLE', description: 'Vollständige Tabellendefinition mit allen Spalten und Datentypen' },
+          { name: 'PRIMARY KEY', description: 'Automatische Erkennung und Generierung von Primärschlüsseln' },
+          { name: 'FOREIGN KEY', description: 'Beziehungen zwischen Tabellen korrekt als Fremdschlüssel abgebildet' },
+          { name: 'Junction Tables', description: 'Many-to-Many-Beziehungen automatisch als Zwischentabellen generiert' },
         ],
       },
       benefits: {
-        title: 'Vorteile der Code-Generierung',
+        title: 'Vorteile der automatischen SQL-Generierung',
         items: [
-          'Beibehaltung aller UML-Beziehungen (Vererbung, Assoziation, Komposition)',
-          'Automatische Generierung von Attributen, Methoden und Konstruktoren',
-          'Exportierbarer Code für direkte Verwendung in Ihrer IDE',
-          'Konsistente Code-Struktur für bessere Wartbarkeit',
+          'Kein manuelles SQL-Schreiben – das Diagramm ist die Quelle',
+          'Gültiger, sofort verwendbarer SQL-Code für SQLite',
+          'Alle Beziehungen (1:1, 1:N, N:M) werden korrekt abgebildet',
+          'Exportierbarer SQL-Code für direkte Verwendung in anderen Tools',
         ],
       },
       cta: 'Jetzt ausprobieren',
@@ -87,55 +87,55 @@ export const translations = {
     },
     // Use Cases
     useCases: {
-      title: 'Perfekt für jede Zielgruppe',
-      description: 'Egal ob Sie Schüler, Student, Entwickler sind oder einen Überblick benötigen – Data Studio SQL bietet die richtigen Tools für Ihre Bedürfnisse.',
+      title: 'Perfekt für jedes Level',
+      description: 'Egal ob Studierender, Entwickler, Einsteiger oder Profi – Data Studio SQL bietet die richtigen Tools für deinen Datenbank-Workflow.',
       items: [
         {
-          title: 'Schüler',
-          description: 'Ideal für den Informatikunterricht. Lernen Sie UML-Diagramme kennen und visualisieren Sie Programmstrukturen einfach und verständlich.',
-        },
-        {
-          title: 'Student',
-          description: 'Perfekt für Software-Engineering-Kurse. Visualisieren Sie komplexe Konzepte und erstellen Sie Präsentationen für Ihre Projekte.',
+          title: 'Studierende',
+          description: 'Perfekt für Datenbankvorlesungen. Lerne SQL und ER-Modellierung visuell und verstehe Datenbankstrukturen intuitiv.',
         },
         {
           title: 'Entwickler',
-          description: 'Erstellen Sie schnell UML-Diagramme aus Ihrem Code und dokumentieren Sie Ihre Architektur professionell.',
+          description: 'Schnelles Prototyping von Datenbankschemas. Entwirf das Modell visuell und erhalte sofort den fertigen SQL-Code.',
         },
         {
-          title: 'Übersicht',
-          description: 'Behalten Sie den Überblick über komplexe Projekte. Erstellen Sie Übersichtsdiagramme für bessere Projektplanung und Dokumentation.',
+          title: 'Lernende',
+          description: 'Einsteiger-freundlich mit integriertem Onboarding und Hilfe-System. Starte sofort – ganz ohne Vorkenntnisse.',
+        },
+        {
+          title: 'Profis',
+          description: 'Vollständiger Datenbank-Workflow auf einem Gerät – offline, schnell und ohne Abhängigkeiten von externen Tools.',
         },
       ],
     },
     // Vorteile
     vorteile: {
       title: 'Warum Data Studio SQL?',
-      description: 'Entdecken Sie die Vorteile, die Data Studio SQL zu Ihrer ersten Wahl für UML-Diagramme macht.',
+      description: 'Ein vollständiger Datenbank-Workflow komplett offline – vom visuellen Diagramm bis zur fertigen SQL-Abfrage.',
       items: [
         {
-          title: 'Zeitersparnis durch Automatisierung',
-          description: 'Automatischer Code-Import wandelt Code in Sekunden in professionelle UML-Diagramme um.',
+          title: 'Offline first – immer verfügbar',
+          description: 'Kein Internet nötig, keine Cloud, keine Account-Pflicht. Alle Daten und Datenbanken bleiben vollständig auf dem Gerät.',
         },
         {
-          title: 'Vollständig offline',
-          description: 'Alle Funktionen arbeiten ohne Internetverbindung – perfekt für unterwegs.',
+          title: 'Vom Diagramm zur Datenbank in Minuten',
+          description: 'Zeichne dein Modell, klick auf Generieren – fertig. Die App übersetzt dein ER-Diagramm automatisch in gültigen SQL-Code.',
         },
         {
-          title: 'Native iOS-Erfahrung',
-          description: 'Modernes SwiftUI-Design mit intuitiver Bedienung, optimiert für iPhone und iPad.',
+          title: 'Gemacht für Lernende und Profis',
+          description: 'Ob erste Datenbankvorlesung oder schnelles Prototyping im Entwickleralltag – Data Studio SQL passt sich deinem Level an.',
         },
         {
-          title: 'Flexible Export-Optionen',
-          description: 'Exportieren Sie als PNG oder PDF, oder sichern Sie komplette Projekte als Backup.',
+          title: 'Native iPad-Erfahrung',
+          description: 'Modernes Design mit intuitiver Bedienung, vollständig für iPad optimiert und jederzeit griffbereit.',
         },
       ],
     },
     // Download
     download: {
-      title: 'Jetzt herunterladen und sofort loslegen',
-      description: 'Verfügbar für iPhone und iPad. Erstellen Sie noch heute Ihre ersten professionellen UML-Diagramme.',
-      button: 'Im App Store herunterladen',
+      title: 'Bereit, deine erste Datenbank zu modellieren?',
+      description: 'Jetzt herunterladen und dein erstes ER-Diagramm in Minuten erstellen. Data Studio SQL macht Datenbankdesign greifbar – egal ob du gerade erst mit SQL anfängst oder schnell ein Schema prototypen möchtest.',
+      button: 'Im App Store laden',
       buttonAria: 'Data Studio SQL im App Store öffnen',
       availableFor: 'Verfügbar für:',
       iosVersion: 'iOS-Version:',
@@ -147,14 +147,14 @@ export const translations = {
     // Footer
     footer: {
       title: 'Data Studio SQL',
-      description: 'Professionelle UML-Diagramme\ndirekt auf iPhone & iPad.',
+      description: 'Datenbanken entwerfen, testen\nund verstehen – auf deinem iPad.',
       links: 'Links',
       privacy: 'Datenschutz',
       imprint: 'Impressum',
       support: 'Support',
       appStore: 'App Store',
       contact: 'Kontakt',
-      contactText: 'Bei Fragen oder Anregungen\nkontaktieren Sie mich gerne.',
+      contactText: 'Bei Fragen oder Anregungen\nkontaktiere mich gerne.',
       copyright: '© {year} Data Studio SQL. Alle Rechte vorbehalten.',
     },
     // Privacy
@@ -187,16 +187,16 @@ export const translations = {
       title: 'Support',
       section1: {
         title: 'Anleitung',
-        content: 'In meiner App finden Sie eine integrierte Hilfe-Sektion mit Tipps und Best Practices für die Erstellung von UML-Diagrammen.',
+        content: 'In meiner App findest du eine integrierte Hilfe-Sektion mit Tipps und Best Practices für ER-Modellierung, SQL-Abfragen und Datenbankdesign.',
       },
       section2: {
         title: 'Kontakt',
-        content: 'Bei Fragen oder Problemen können Sie mich jederzeit kontaktieren. In der App gibt es eine integrierte Funktion zum Senden von Emails (kategorisiert nach Fehler, Verbesserungsvorschläge, Erweiterungen).',
+        content: 'Bei Fragen oder Problemen kannst du mich jederzeit kontaktieren. In der App gibt es eine integrierte Funktion zum Senden von E-Mails (kategorisiert nach Fehler, Verbesserungsvorschläge, Erweiterungen).',
       },
       section3: {
         title: 'Feedback',
-        content: 'Ihr Feedback ist mir wichtig! Teilen Sie mir mit, wie ich Data Studio SQL weiter verbessern kann. Ich freue mich über Ihre Anregungen und Vorschläge.',
-        email: 'Wenden Sie sich gerne direkt an mich:',
+        content: 'Dein Feedback ist mir wichtig! Teile mir mit, wie ich Data Studio SQL weiter verbessern kann. Ich freue mich über Anregungen und Vorschläge.',
+        email: 'Wende dich gerne direkt an mich:',
         emailAddress: 'UMLStudioCode@gmx.de',
       },
     },
@@ -230,7 +230,7 @@ export const translations = {
     nav: {
       home: 'Home',
       features: 'Features',
-      codeGeneration: 'Code Generation',
+      codeGeneration: 'SQL Generator',
       screenshots: 'Screenshots',
       useCases: 'Use Cases',
       download: 'Download',
@@ -241,64 +241,64 @@ export const translations = {
     // Hero
     hero: {
       title: 'Data Studio SQL',
-      subtitle: 'Create professional UML diagrams directly on iPhone & iPad',
-      description: 'Professional UML diagrams. Simple. Fast. Offline.',
+      subtitle: 'Design, test and understand databases – on your iPad.',
+      description: 'Visual ER Modeling. Automatic SQL Generation. Local Database. Fully Offline.',
       cta: 'Download now',
       ctaAria: 'Download from App Store',
       imageAlt: 'Data Studio SQL App Screenshot',
     },
     // Features
     features: {
-      title: 'Everything you need for professional UML diagrams',
-      description: 'Discover the powerful features that make Data Studio SQL a complete solution for your diagram creation.',
+      title: 'Everything for your database workflow – in one app',
+      description: 'From visual ER modeling and automatic SQL generation to a local SQLite database – Data Studio SQL combines everything in a single tool.',
       items: [
         {
-          title: 'Automatically import code',
-          description: 'Load code files or paste code directly. The app automatically recognizes classes, methods, and attributes from Swift, Java, Python, and C#.',
+          title: 'ER Canvas',
+          description: 'Create entities and relationships visually with drag & drop – with zoom, grid snapping, and individual colors.',
         },
         {
-          title: 'Professional UML classes',
-          description: 'Create UML classes with attributes, methods, and constructors – all with professional representation.',
+          title: 'SQL Generator',
+          description: 'Automatically clean SQL code from the diagram – CREATE TABLE, PRIMARY KEY, FOREIGN KEY, Junction Tables.',
         },
         {
-          title: 'Smart connections',
-          description: 'Connect elements with various UML relationship types such as association, inheritance, and dependency.',
+          title: 'Local Database',
+          description: 'Create a real SQLite database directly on the device and fill it with configurable demo data.',
         },
         {
-          title: 'Generate code from diagrams',
-          description: 'Generate code from your UML diagrams in Swift, Java, Python, and C# – perfect for documentation.',
+          title: 'Query Editor',
+          description: 'Write and execute SQL queries and see results immediately in a dynamic table.',
         },
         {
-          title: 'Organized project management',
-          description: 'Organize your diagrams in folders, mark favorites, and manage multiple projects.',
+          title: 'Project Management',
+          description: 'Organize multiple projects in folders, pin, search, and export as SQL, PNG, PDF, or JSON.',
         },
         {
-          title: 'Flexible export',
-          description: 'Export diagrams as PNG or PDF, or save complete projects as backup files.',
+          title: 'Dark Mode & Themes',
+          description: 'Four design presets (Classic, Modern, Minimal, Colorful) and full Dark Mode support.',
         },
       ],
     },
-    // Code Generation
+    // SQL Generator / Workflow
     codeGeneration: {
-      title: 'Generate code from diagrams',
-      subtitle: 'From UML to productive code in seconds',
-      description: 'Generate complete, production-ready code from your UML diagrams. The app preserves the structure, relationships, and all details of your modeling.',
+      title: 'From Diagram to Database in Seconds',
+      subtitle: 'SQL automatically generated – directly from your ER model',
+      description: 'Draw your database model on the canvas and immediately get complete SQL code. CREATE TABLE, PRIMARY KEY, FOREIGN KEY, and Junction Tables are automatically recognized and correctly generated.',
       features: {
-        title: 'Supported programming languages',
+        title: 'Automatically Generated SQL Code',
         languages: [
-          { name: 'Swift', description: 'Native iOS development with complete Swift syntax' },
-          { name: 'Java', description: 'Platform-independent code for enterprise applications' },
-          { name: 'Python', description: 'Modern Python with type hints and class definitions' },
-          { name: 'C#', description: 'Full .NET compatibility with properties and methods' },
+          { name: 'CREATE TABLE', description: 'Complete table definition with all columns and data types' },
+          { name: 'PRIMARY KEY', description: 'Automatic detection and generation of primary keys' },
+          { name: 'FOREIGN KEY', description: 'Relationships between tables correctly mapped as foreign keys' },
+          { name: 'Junction Tables', description: 'Many-to-many relationships automatically generated as junction tables' },
         ],
       },
       benefits: {
-        title: 'Benefits of code generation',
+        title: 'Benefits of Automatic SQL Generation',
         items: [
-          'Preservation of all UML relationships (inheritance, association, composition)',
-          'Automatic generation of attributes, methods, and constructors',
-          'Exportable code for direct use in your IDE',
-          'Consistent code structure for better maintainability',
+          'No manual SQL writing – the diagram is the source',
+          'Valid, immediately usable SQL code for SQLite',
+          'All relationships (1:1, 1:N, N:M) are correctly mapped',
+          'Exportable SQL code for direct use in other tools',
         ],
       },
       cta: 'Try it now',
@@ -313,55 +313,55 @@ export const translations = {
     },
     // Use Cases
     useCases: {
-      title: 'Perfect for every target group',
-      description: 'Whether you are a student, developer, or need an overview – Data Studio SQL offers the right tools for your needs.',
+      title: 'Perfect for every level',
+      description: 'Whether you are a student, developer, beginner, or professional – Data Studio SQL offers the right tools for your database workflow.',
       items: [
         {
-          title: 'Pupils',
-          description: 'Ideal for computer science classes. Learn UML diagrams and visualize program structures simply and clearly.',
-        },
-        {
-          title: 'Student',
-          description: 'Perfect for software engineering courses. Visualize complex concepts and create presentations for your projects.',
+          title: 'Students',
+          description: 'Perfect for database courses. Learn SQL and ER modeling visually and understand database structures intuitively.',
         },
         {
           title: 'Developers',
-          description: 'Quickly create UML diagrams from your code and document your architecture professionally.',
+          description: 'Rapid prototyping of database schemas. Design the model visually and get the finished SQL code immediately.',
         },
         {
-          title: 'Overview',
-          description: 'Keep track of complex projects. Create overview diagrams for better project planning and documentation.',
+          title: 'Learners',
+          description: 'Beginner-friendly with integrated onboarding and help system. Start right away – no prior knowledge needed.',
+        },
+        {
+          title: 'Professionals',
+          description: 'Complete database workflow on one device – offline, fast, and independent of external tools.',
         },
       ],
     },
     // Vorteile
     vorteile: {
       title: 'Why Data Studio SQL?',
-      description: 'Discover the advantages that make Data Studio SQL your first choice for UML diagrams.',
+      description: 'A complete database workflow fully offline – from the visual diagram to the finished SQL query.',
       items: [
         {
-          title: 'Time savings through automation',
-          description: 'Automatic code import converts code into professional UML diagrams in seconds.',
+          title: 'Offline first – always available',
+          description: 'No internet needed, no cloud, no account required. All data and databases stay completely on the device.',
         },
         {
-          title: 'Fully offline',
-          description: 'All functions work without an internet connection – perfect for on the go.',
+          title: 'From diagram to database in minutes',
+          description: 'Draw your model, click Generate – done. The app automatically translates your ER diagram into valid SQL code.',
         },
         {
-          title: 'Native iOS experience',
-          description: 'Modern SwiftUI design with intuitive operation, optimized for iPhone and iPad.',
+          title: 'Made for learners and professionals',
+          description: 'Whether your first database lecture or rapid prototyping in development – Data Studio SQL adapts to your level.',
         },
         {
-          title: 'Flexible export options',
-          description: 'Export as PNG or PDF, or save complete projects as backups.',
+          title: 'Native iPad experience',
+          description: 'Modern design with intuitive operation, fully optimized for iPad and always at hand.',
         },
       ],
     },
     // Download
     download: {
-      title: 'Download now and get started immediately',
-      description: 'Available for iPhone and iPad. Create your first professional UML diagrams today.',
-      button: 'Download from App Store',
+      title: 'Ready to model your first database?',
+      description: 'Download now and create your first ER diagram in minutes. Data Studio SQL makes database design tangible – whether you\'re just starting with SQL or want to quickly prototype a schema.',
+      button: 'Download on the App Store',
       buttonAria: 'Open Data Studio SQL in App Store',
       availableFor: 'Available for:',
       iosVersion: 'iOS version:',
@@ -373,14 +373,14 @@ export const translations = {
     // Footer
     footer: {
       title: 'Data Studio SQL',
-      description: 'Professional UML diagrams\ndirectly on iPhone & iPad.',
+      description: 'Design, test and understand\ndatabases – on your iPad.',
       links: 'Links',
       privacy: 'Privacy',
       imprint: 'Imprint',
       support: 'Support',
       appStore: 'App Store',
       contact: 'Contact',
-      contactText: 'Feel free to contact us\nwith questions or suggestions.',
+      contactText: 'Feel free to contact me\nwith questions or suggestions.',
       copyright: '© {year} Data Studio SQL. All rights reserved.',
     },
     // Privacy
@@ -413,16 +413,16 @@ export const translations = {
       title: 'Support',
       section1: {
         title: 'Guide',
-        content: 'In our app you will find an integrated help section with tips and best practices for creating UML diagrams.',
+        content: 'In the app you will find an integrated help section with tips and best practices for ER modeling, SQL queries, and database design.',
       },
       section2: {
         title: 'Contact',
-        content: 'If you have any questions or problems, please feel free to contact us at any time. In the app there is an integrated function for sending emails (categorized by errors, improvement suggestions, extensions).',
+        content: 'If you have any questions or problems, feel free to contact me at any time. The app has an integrated function for sending emails (categorized by errors, improvement suggestions, and extensions).',
       },
       section3: {
         title: 'Feedback',
-        content: 'Your feedback is important to us! Let us know how we can further improve Data Studio SQL. We look forward to your suggestions and ideas.',
-        email: 'Feel free to contact us directly:',
+        content: 'Your feedback is important to me! Let me know how I can further improve Data Studio SQL. I look forward to your suggestions and ideas.',
+        email: 'Feel free to contact me directly:',
         emailAddress: 'UMLStudioCode@gmx.de',
       },
     },
