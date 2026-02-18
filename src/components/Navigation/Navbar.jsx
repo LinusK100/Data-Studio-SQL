@@ -91,7 +91,7 @@ const Navbar = () => {
             className="navbar-logo"
             aria-label={t('nav.home')}
           >
-            UML Studio Code
+            Data Studio SQL
           </a>
         </div>
 

@@ -14,17 +14,17 @@ export const translations = {
     },
     // Hero
     hero: {
-      title: 'UML Studio Code',
+      title: 'Data Studio SQL',
       subtitle: 'Erstellen Sie professionelle UML-Diagramme direkt auf iPhone & iPad',
       description: 'Professionelle UML-Diagramme. Einfach. Schnell. Offline.',
       cta: 'Jetzt herunterladen',
       ctaAria: 'Jetzt im App Store herunterladen',
-      imageAlt: 'UML Studio Code App Screenshot',
+      imageAlt: 'Data Studio SQL App Screenshot',
     },
     // Features
     features: {
       title: 'Alles, was Sie für professionelle UML-Diagramme brauchen',
-      description: 'Entdecken Sie die leistungsstarken Features, die UML Studio Code zu einer vollständigen Lösung für Ihre Diagramm-Erstellung machen.',
+      description: 'Entdecken Sie die leistungsstarken Features, die Data Studio SQL zu einer vollständigen Lösung für Ihre Diagramm-Erstellung machen.',
       items: [
         {
           title: 'Code automatisch importieren',
@@ -80,7 +80,7 @@ export const translations = {
     // Screenshots
     screenshots: {
       title: 'Screenshots',
-      description: 'Sehen Sie UML Studio Code in Aktion – optimiert für iPhone und iPad.',
+      description: 'Sehen Sie Data Studio SQL in Aktion – optimiert für iPhone und iPad.',
       iphone: 'iPhone',
       ipad: 'iPad',
       openLightbox: 'Screenshot {index} öffnen',
@@ -88,7 +88,7 @@ export const translations = {
     // Use Cases
     useCases: {
       title: 'Perfekt für jede Zielgruppe',
-      description: 'Egal ob Sie Schüler, Student, Entwickler sind oder einen Überblick benötigen – UML Studio Code bietet die richtigen Tools für Ihre Bedürfnisse.',
+      description: 'Egal ob Sie Schüler, Student, Entwickler sind oder einen Überblick benötigen – Data Studio SQL bietet die richtigen Tools für Ihre Bedürfnisse.',
       items: [
         {
           title: 'Schüler',
@@ -110,8 +110,8 @@ export const translations = {
     },
     // Vorteile
     vorteile: {
-      title: 'Warum UML Studio Code?',
-      description: 'Entdecken Sie die Vorteile, die UML Studio Code zu Ihrer ersten Wahl für UML-Diagramme macht.',
+      title: 'Warum Data Studio SQL?',
+      description: 'Entdecken Sie die Vorteile, die Data Studio SQL zu Ihrer ersten Wahl für UML-Diagramme macht.',
       items: [
         {
           title: 'Zeitersparnis durch Automatisierung',
@@ -136,7 +136,7 @@ export const translations = {
       title: 'Jetzt herunterladen und sofort loslegen',
       description: 'Verfügbar für iPhone und iPad. Erstellen Sie noch heute Ihre ersten professionellen UML-Diagramme.',
       button: 'Im App Store herunterladen',
-      buttonAria: 'UML Studio Code im App Store öffnen',
+      buttonAria: 'Data Studio SQL im App Store öffnen',
       availableFor: 'Verfügbar für:',
       iosVersion: 'iOS-Version:',
       languages: 'Sprachen:',
@@ -146,7 +146,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      title: 'UML Studio Code',
+      title: 'Data Studio SQL',
       description: 'Professionelle UML-Diagramme\ndirekt auf iPhone & iPad.',
       links: 'Links',
       privacy: 'Datenschutz',
@@ -155,11 +155,11 @@ export const translations = {
       appStore: 'App Store',
       contact: 'Kontakt',
       contactText: 'Bei Fragen oder Anregungen\nkontaktieren Sie mich gerne.',
-      copyright: '© {year} UML Studio Code. Alle Rechte vorbehalten.',
+      copyright: '© {year} Data Studio SQL. Alle Rechte vorbehalten.',
     },
     // Privacy
     privacy: {
-      title: 'Datenschutzerklärung für UML Studio Code',
+      title: 'Datenschutzerklärung für Data Studio SQL',
       section1: {
         title: '1. Betreiber der App',
         name: 'Linus Kloppenburg',
@@ -195,7 +195,7 @@ export const translations = {
       },
       section3: {
         title: 'Feedback',
-        content: 'Ihr Feedback ist mir wichtig! Teilen Sie mir mit, wie ich UML Studio Code weiter verbessern kann. Ich freue mich über Ihre Anregungen und Vorschläge.',
+        content: 'Ihr Feedback ist mir wichtig! Teilen Sie mir mit, wie ich Data Studio SQL weiter verbessern kann. Ich freue mich über Ihre Anregungen und Vorschläge.',
         email: 'Wenden Sie sich gerne direkt an mich:',
         emailAddress: 'UMLStudioCode@gmx.de',
       },
@@ -240,17 +240,17 @@ export const translations = {
     },
     // Hero
     hero: {
-      title: 'UML Studio Code',
+      title: 'Data Studio SQL',
       subtitle: 'Create professional UML diagrams directly on iPhone & iPad',
       description: 'Professional UML diagrams. Simple. Fast. Offline.',
       cta: 'Download now',
       ctaAria: 'Download from App Store',
-      imageAlt: 'UML Studio Code App Screenshot',
+      imageAlt: 'Data Studio SQL App Screenshot',
     },
     // Features
     features: {
       title: 'Everything you need for professional UML diagrams',
-      description: 'Discover the powerful features that make UML Studio Code a complete solution for your diagram creation.',
+      description: 'Discover the powerful features that make Data Studio SQL a complete solution for your diagram creation.',
       items: [
         {
           title: 'Automatically import code',
@@ -306,7 +306,7 @@ export const translations = {
     // Screenshots
     screenshots: {
       title: 'Screenshots',
-      description: 'See UML Studio Code in action – optimized for iPhone and iPad.',
+      description: 'See Data Studio SQL in action – optimized for iPhone and iPad.',
       iphone: 'iPhone',
       ipad: 'iPad',
       openLightbox: 'Open screenshot {index}',
@@ -314,7 +314,7 @@ export const translations = {
     // Use Cases
     useCases: {
       title: 'Perfect for every target group',
-      description: 'Whether you are a student, developer, or need an overview – UML Studio Code offers the right tools for your needs.',
+      description: 'Whether you are a student, developer, or need an overview – Data Studio SQL offers the right tools for your needs.',
       items: [
         {
           title: 'Pupils',
@@ -336,8 +336,8 @@ export const translations = {
     },
     // Vorteile
     vorteile: {
-      title: 'Why UML Studio Code?',
-      description: 'Discover the advantages that make UML Studio Code your first choice for UML diagrams.',
+      title: 'Why Data Studio SQL?',
+      description: 'Discover the advantages that make Data Studio SQL your first choice for UML diagrams.',
       items: [
         {
           title: 'Time savings through automation',
@@ -362,7 +362,7 @@ export const translations = {
       title: 'Download now and get started immediately',
       description: 'Available for iPhone and iPad. Create your first professional UML diagrams today.',
       button: 'Download from App Store',
-      buttonAria: 'Open UML Studio Code in App Store',
+      buttonAria: 'Open Data Studio SQL in App Store',
       availableFor: 'Available for:',
       iosVersion: 'iOS version:',
       languages: 'Languages:',
@@ -372,7 +372,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      title: 'UML Studio Code',
+      title: 'Data Studio SQL',
       description: 'Professional UML diagrams\ndirectly on iPhone & iPad.',
       links: 'Links',
       privacy: 'Privacy',
@@ -381,11 +381,11 @@ export const translations = {
       appStore: 'App Store',
       contact: 'Contact',
       contactText: 'Feel free to contact us\nwith questions or suggestions.',
-      copyright: '© {year} UML Studio Code. All rights reserved.',
+      copyright: '© {year} Data Studio SQL. All rights reserved.',
     },
     // Privacy
     privacy: {
-      title: 'Privacy Policy for UML Studio Code',
+      title: 'Privacy Policy for Data Studio SQL',
       section1: {
         title: '1. App Operator',
         name: 'Linus Kloppenburg',
@@ -421,7 +421,7 @@ export const translations = {
       },
       section3: {
         title: 'Feedback',
-        content: 'Your feedback is important to us! Let us know how we can further improve UML Studio Code. We look forward to your suggestions and ideas.',
+        content: 'Your feedback is important to us! Let us know how we can further improve Data Studio SQL. We look forward to your suggestions and ideas.',
         email: 'Feel free to contact us directly:',
         emailAddress: 'UMLStudioCode@gmx.de',
       },
