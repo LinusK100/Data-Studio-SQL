@@ -1,28 +1,32 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { 
-  HiDocumentSearch, 
-  HiCollection, 
-  HiLink, 
-  HiCode, 
-  HiFolder, 
-  HiUpload 
+import {
+  HiViewBoards,
+  HiTable,
+  HiCode,
+  HiShieldCheck,
+  HiTerminal,
+  HiDatabase,
+  HiFolder,
+  HiColorSwatch,
 } from 'react-icons/hi';
 import { useTranslation } from '../../hooks/useTranslation';
 import './features.css';
 
 const iconMap = {
-  'doc.text.magnifyingglass': HiDocumentSearch,
-  'rectangle.3.group': HiCollection,
-  'arrow.left.and.right': HiLink,
-  'chevron.left.forwardslash.chevron.right': HiCode,
-  'folder.badge.gearshape': HiFolder,
-  'square.and.arrow.up': HiUpload,
+  canvas: HiViewBoards,
+  table: HiTable,
+  code: HiCode,
+  shield: HiShieldCheck,
+  terminal: HiTerminal,
+  database: HiDatabase,
+  folder: HiFolder,
+  export: HiColorSwatch,
 };
 
 const FeatureCard = ({ feature, index }) => {
   const { t } = useTranslation();
-  const IconComponent = iconMap[feature.icon] || HiCollection;
+  const IconComponent = iconMap[feature.icon] || HiCode;
   const featureData = t('features.items', { returnObjects: true })?.[index] || feature;
 
   return (

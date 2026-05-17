@@ -1,19 +1,20 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { 
-  HiDesktopComputer, 
-  HiAcademicCap, 
-  HiViewGrid 
+import {
+  HiAcademicCap,
+  HiCode,
+  HiBookOpen,
+  HiBriefcase,
 } from 'react-icons/hi';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCases } from '../../utils/constants';
 import './useCases.css';
 
 const iconMap = {
-  'laptopcomputer': HiDesktopComputer,
-  'book': HiAcademicCap,
   'academic-cap': HiAcademicCap,
-  'view-grid': HiViewGrid,
+  'code': HiCode,
+  'book-open': HiBookOpen,
+  'briefcase': HiBriefcase,
 };
 
 const UseCases = () => {
@@ -31,7 +32,7 @@ const UseCases = () => {
         </div>
         <div className="use-cases-grid">
           {useCases.map((useCase, index) => {
-            const IconComponent = iconMap[useCase.icon] || HiDesktopComputer;
+            const IconComponent = iconMap[useCase.icon] || HiAcademicCap;
             const useCaseData = useCasesData[index] || useCase;
             return (
               <div key={useCase.id} className="use-case-card">

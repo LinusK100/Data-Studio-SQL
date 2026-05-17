@@ -48,7 +48,7 @@ const Footer = () => {
                 {t('footer.imprint')}
               </Link>
               <a 
-                href="https://apps.apple.com/us/app/uml-studio-code/id6757933773" 
+                href="https://apps.apple.com/us/app/data-studio-sql/id6758582460" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="footer-link-item"

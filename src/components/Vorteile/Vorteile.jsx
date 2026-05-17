@@ -1,20 +1,20 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { 
-  HiLightningBolt, 
-  HiStatusOffline, 
-  HiDeviceMobile, 
-  HiCloudUpload 
+import {
+  HiStatusOffline,
+  HiLightningBolt,
+  HiShieldCheck,
+  HiDeviceMobile,
 } from 'react-icons/hi';
 import { useTranslation } from '../../hooks/useTranslation';
 import { vorteile } from '../../utils/constants';
 import './vorteile.css';
 
 const iconMap = {
-  'bolt.fill': HiLightningBolt,
-  'wifi.slash': HiStatusOffline,
-  'iphone': HiDeviceMobile,
-  'square.and.arrow.up.on.square': HiCloudUpload,
+  'wifi-slash': HiStatusOffline,
+  'lightning': HiLightningBolt,
+  'shield-check': HiShieldCheck,
+  'device-mobile': HiDeviceMobile,
 };
 
 const Vorteile = () => {
@@ -35,10 +35,10 @@ const Vorteile = () => {
             const IconComponent = iconMap[vorteil.icon] || HiLightningBolt;
             const isEven = index % 2 === 0;
             const vorteilData = vorteileData[index] || vorteil;
-            
+
             return (
-              <div 
-                key={vorteil.id} 
+              <div
+                key={vorteil.id}
                 className={`vorteil-item ${isEven ? 'vorteil-left' : 'vorteil-right'}`}
               >
                 <div className="vorteil-content">

@@ -1,21 +1,29 @@
 import React from 'react';
 import PresetCard from './PresetCard';
+import { useTranslation } from '../../hooks/useTranslation';
 import { designPresets } from '../../utils/constants';
 import './designPresets.css';
 
 const DesignPresets = () => {
+  const { t } = useTranslation();
+  const presetDescriptions = t('designPresets.items', { returnObjects: true });
+
   return (
     <section className="design-presets section" id="design">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Wählen Sie Ihr Design – von Classic bis Colorful</h2>
+          <h2 className="section-title">{t('designPresets.title')}</h2>
           <p className="section-description">
-            Passen Sie das Aussehen Ihrer Diagramme an Ihre Präferenzen an. Von minimalistisch bis farbenfroh – alles ist möglich.
+            {t('designPresets.description')}
           </p>
         </div>
         <div className="presets-grid">
-          {designPresets.map((preset) => (
-            <PresetCard key={preset.id} preset={preset} />
+          {designPresets.map((preset, index) => (
+            <PresetCard
+              key={preset.id}
+              preset={preset}
+              description={Array.isArray(presetDescriptions) ? presetDescriptions[index]?.description : preset.description}
+            />
           ))}
         </div>
       </div>

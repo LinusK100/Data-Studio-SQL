@@ -1,7 +1,7 @@
 import React from 'react';
 import './designPresets.css';
 
-const PresetCard = ({ preset }) => {
+const PresetCard = ({ preset, description }) => {
   return (
     <div className="preset-card">
       <div 
@@ -23,7 +23,7 @@ const PresetCard = ({ preset }) => {
         </div>
       </div>
       <h3 className="preset-name">{preset.name}</h3>
-      <p className="preset-description">{preset.description}</p>
+      <p className="preset-description">{description ?? preset.description}</p>
     </div>
   );
 };

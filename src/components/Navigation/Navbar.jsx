@@ -71,9 +71,10 @@ const Navbar = () => {
   const navLinks = [
     { id: 'home', label: t('nav.home') },
     { id: 'features', label: t('nav.features') },
+    { id: 'canvas', label: t('nav.canvas') },
     { id: 'code-generation', label: t('nav.codeGeneration') },
+    { id: 'query-editor', label: t('nav.queryEditor') },
     { id: 'screenshots', label: t('nav.screenshots') },
-    { id: 'use-cases', label: t('nav.useCases') },
     { id: 'download', label: t('nav.download') },
   ];
 

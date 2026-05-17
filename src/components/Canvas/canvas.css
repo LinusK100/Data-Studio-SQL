@@ -1,0 +1,238 @@
+.canvas-section {
+  background-color: var(--bg-primary);
+}
+
+.canvas-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-5xl);
+}
+
+/* Top Grid: Entity Types + Relationships */
+.canvas-top-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-3xl);
+}
+
+@media (min-width: 768px) {
+  .canvas-top-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-4xl);
+  }
+}
+
+.canvas-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.canvas-block-title {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.canvas-block-title-center {
+  text-align: center;
+}
+
+.canvas-block-description {
+  font-size: var(--font-size-body);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.canvas-block-description-center {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Entity Type Pills */
+.entity-types-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.entity-type-pill {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background-color: var(--card-bg);
+  border: var(--border-width) solid var(--border-color);
+  border-left: 3px solid var(--entity-color, var(--color-primary-blue));
+  border-radius: var(--radius-sm);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.entity-type-pill:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.entity-type-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--entity-color, var(--color-primary-blue));
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.entity-type-name {
+  display: block;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.entity-type-desc {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Relationships */
+.relationships-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.relationship-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background-color: var(--card-bg);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--radius-sm);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.relationship-row:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.relationship-badge {
+  flex-shrink: 0;
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary-blue);
+  background-color: rgba(0, 122, 255, 0.1);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  min-width: 52px;
+  text-align: center;
+}
+
+.relationship-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.relationship-desc-label {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+}
+
+.relationship-example {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+}
+
+/* Auto-Layout Section */
+.canvas-layout-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.layout-algorithms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+}
+
+@media (min-width: 640px) {
+  .layout-algorithms-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.layout-algorithm-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-lg);
+  background-color: var(--card-bg);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--radius-sm);
+  text-align: center;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.layout-algorithm-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.layout-algo-name {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary-blue);
+}
+
+.layout-algo-desc {
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Canvas Tools Section (merged with Layout Algorithms) */
+.canvas-tools-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.canvas-tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-top: var(--spacing-sm);
+}
+
+.canvas-tool-chip {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: var(--card-bg);
+  border: var(--border-width) solid var(--border-color);
+  border-radius: 999px;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.canvas-tool-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.canvas-tool-chip span {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+}
